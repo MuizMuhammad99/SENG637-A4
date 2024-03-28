@@ -158,6 +158,8 @@ public abstract class DataUtilities {
                 if (n != null) {
                     total += n.doubleValue();
                 }
+            }else {
+                throw new IllegalArgumentException("Invalid row index: " + row);
             }
         }
         return total;

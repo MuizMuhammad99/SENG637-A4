@@ -66,7 +66,7 @@ public class DataUtilitiesCalculateColumnTotal2 {
         DataUtilities.calculateColumnTotal(null, 0, validRows);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void calculateColumnTotalInvalid2() {
         Mockery mockingContext = new Mockery();
         final Values2D values = mockingContext.mock(Values2D.class);
@@ -74,9 +74,8 @@ public class DataUtilitiesCalculateColumnTotal2 {
         mockingContext.checking(new Expectations() {{
             oneOf(values).getRowCount();
             will(returnValue(3));
-
-            allowing(values).getValue(with(any(Integer.class)), with(any(Integer.class)));
-            will(returnValue(1));
+            allowing(values).getValue(with(any(int.class)), with(any(int.class)));
+            will(returnValue(null));
         }});
 
         int[] invalidRows = {0, 3};
@@ -163,11 +162,17 @@ public class DataUtilitiesCalculateColumnTotal2 {
 
         int[] validRows = null;
         double result;
+
         try {
+
             result = DataUtilities.calculateColumnTotal(values, 0, validRows);
+
         } catch (NullPointerException e) {
+
             result = 0.0;
+
         }
+
         assertEquals(0.0, result, 0.000000001d);
     }
 

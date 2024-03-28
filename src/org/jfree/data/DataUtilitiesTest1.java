@@ -74,11 +74,15 @@ public class DataUtilitiesTest1 {
 	}
 	
 	@Test
-	public void calculateRowTotalForNullData() {
-	    try {
+    public void calculateRowTotalForNullData() {
+		try {
+
 	        DataUtilities.calculateRowTotal(null, 0);
+
 	        fail("Expected IllegalArgumentException was not thrown");
+
 	    } catch (IllegalArgumentException e) {
+
 	    }
 	}
 	
@@ -120,31 +124,28 @@ public class DataUtilitiesTest1 {
 	
 	@Test(expected = IndexOutOfBoundsException.class)
 	public void calculateRowTotalInvalidRowIndex() {
-	    mockingContext.checking(new Expectations() {{
+		mockingContext.checking(new Expectations() {{
 	        oneOf(values).getColumnCount();
-	        will(returnValue(2)); // Set the expected column count
-	        oneOf(values).getValue(-1, 0); // Expect the invalid row index
-	        will(throwException(new IndexOutOfBoundsException())); // Throw IndexOutOfBoundsException
+	        will(returnValue(2));
+	        oneOf(values).getValue(-1, 0); 
+	        will(throwException(new IndexOutOfBoundsException()));
 	    }});
-
-	    // Invoke the method under test
+	    
 	    DataUtilities.calculateRowTotal(values, -1);
 	}
-
 	
 	@Test(expected = IndexOutOfBoundsException.class)
 	public void calculateRowTotalRowIndexExceedingTableSize() {
 	    mockingContext.checking(new Expectations() {{
 	        oneOf(values).getColumnCount();
-	        will(returnValue(3)); // Set the expected column count
-	        oneOf(values).getValue(1, 0); // Expect the out-of-bounds row index
-	        will(throwException(new IndexOutOfBoundsException())); // Throw IndexOutOfBoundsException
+	        will(returnValue(3));
+	        oneOf(values).getValue(1, 0);
+	        will(throwException(new IndexOutOfBoundsException()));
 	    }});
 
-	    // Invoke the method under test
+	    // exercise
 	    DataUtilities.calculateRowTotal(values, 1);
 	}
-
 	
 	@Test
 	public void calculateRowTotalWithNegativeValues() {

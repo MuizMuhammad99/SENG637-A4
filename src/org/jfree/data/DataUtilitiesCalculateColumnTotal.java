@@ -22,19 +22,19 @@ public class DataUtilitiesCalculateColumnTotal {
         assertEquals(0.0, result, .000000001d);
     }
     
-	@Test
-	public void calculateColumnTotalForNegativeRowCount() {
-	    Mockery mockingContext = new Mockery();
-	    final Values2D values = mockingContext.mock(Values2D.class);
+    @Test
+    public void calculateColumnTotalForNegativeRowCount() {
+        Mockery mockingContext = new Mockery();
+        final Values2D values = mockingContext.mock(Values2D.class);
 
-	    mockingContext.checking(new Expectations() {{
-	        oneOf(values).getRowCount();
-	        will(returnValue(0));
-	    }});
+        mockingContext.checking(new Expectations() {{
+            oneOf(values).getRowCount();
+            will(returnValue(0));
+        }});
 
-	    double result = DataUtilities.calculateColumnTotal(values, 0);
-	    assertEquals(0.0, result, .000000001d);
-	}
+        double result = DataUtilities.calculateColumnTotal(values, 0);
+        assertEquals(0.0, result, .000000001d);
+    }
     
     @Test
     public void calculateColumnTotalForLargeValues() {

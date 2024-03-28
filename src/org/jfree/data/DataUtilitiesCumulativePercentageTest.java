@@ -94,7 +94,7 @@ public class DataUtilitiesCumulativePercentageTest {
         assertEquals("The percentage for null value should be NaN", Double.NaN, result.getValue(0));
     }
 
-    @Test
+    @Test(expected = IllegalStateException.class)
     public void calculateCumulativePercentageForInvalidData() {
 
         mockingContext.checking(new Expectations() {{
@@ -103,14 +103,14 @@ public class DataUtilitiesCumulativePercentageTest {
  	        allowing(values).getKey(0);
  	        will(returnValue(0));
             allowing(values).getValue(0);
-            will(returnValue(5));
+            will(returnValue('A'));
         }});
 
         // exercise
         KeyedValues result = DataUtilities.getCumulativePercentages(values);
 
         // verify
-        assertEquals("The percentage for invalid value should be error", 1.0, result.getValue(0).doubleValue(), 0.0001);
+        assertEquals("The percentage for invalid value should be error", Double.NaN, result.getValue(0));
     }
     
     @Test
@@ -128,9 +128,9 @@ public class DataUtilitiesCumulativePercentageTest {
     }
 
     @Test
-    public void testGetCumulativePercentagesWithNegativeValues() {
+    public void calculateCumulativePercentageForNegativeValues() {
         mockingContext.checking(new Expectations() {{
-            allowing(values).getItemCount();
+        	allowing(values).getItemCount();
             will(returnValue(3));
             allowing(values).getValue(0);
             will(returnValue(-5));
@@ -138,16 +138,17 @@ public class DataUtilitiesCumulativePercentageTest {
             will(returnValue(-3));
             allowing(values).getValue(2);
             will(returnValue(-2));
-            allowing(values).getKey(0); // Allowing invocation of getKey(0)
-            allowing(values).getKey(1); // Allowing invocation of getKey(1)
-            allowing(values).getKey(2); // Allowing invocation of getKey(2)
+            allowing(values).getKey(0);
+            allowing(values).getKey(1);
+            allowing(values).getKey(2);
         }});
 
+        // exercise
         KeyedValues result = DataUtilities.getCumulativePercentages(values);
 
+        // verify
         assertEquals("The cumulative percentage for the first value should be 0.5", 0.5, result.getValue(0).doubleValue(), 0.0000001);
     }
-
 
     @Test
     public void calculateCumulativePercentageForMixedTypes() {
@@ -161,7 +162,7 @@ public class DataUtilitiesCumulativePercentageTest {
             allowing(values).getKey(1);
             will(returnValue(1));
             allowing(values).getValue(1);
-            will(returnValue(9)); // Return a Number instead of a String
+            will(returnValue(9.0));
             allowing(values).getKey(2);
             will(returnValue(2));
             allowing(values).getValue(2);
@@ -173,9 +174,9 @@ public class DataUtilitiesCumulativePercentageTest {
 
         // verify
         assertEquals("The percentage for 1/3 value should be 0.3125", 0.3125, result.getValue(0).doubleValue(), 0.0000001);
+
         assertEquals("The percentage for 3/3 value should be 1.0", 1.0, result.getValue(2).doubleValue(), 0.0000001);
     }
-
 
     @Test
     public void calculateCumulativePercentageForLargeValues() {
@@ -185,11 +186,11 @@ public class DataUtilitiesCumulativePercentageTest {
             allowing(values).getKey(0);
             will(returnValue(0));
             allowing(values).getValue(0);
-            will(returnValue(1));
+            will(returnValue(1e30));
             allowing(values).getKey(1);
             will(returnValue(1));
             allowing(values).getValue(1);
-            will(returnValue(1));
+            will(returnValue(1e30));
         }});
 
         // exercise

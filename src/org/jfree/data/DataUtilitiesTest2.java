@@ -40,7 +40,7 @@ public class DataUtilitiesTest2 {
         assertEquals(7.0, result, .000000001d);
 
         // tear-down: NONE in this test method
-    }
+	}
 	
 	@Test
     public void calculateRowTotalForEmptyRowWithValidCols() {
@@ -86,50 +86,46 @@ public class DataUtilitiesTest2 {
     }
 
 	@Test(expected = IllegalArgumentException.class)
-	public void calculateRowTotalInvalidValidCols() {
-	    final Values2D values = mockingContext.mock(Values2D.class); // Assuming you have a mocking context setup
 
-	    // Mocking getColumnCount() method
+	public void calculateRowTotalInvalidValidCols() {
+	    final Values2D values = mockingContext.mock(Values2D.class);
 	    mockingContext.checking(new Expectations() {{
 	        oneOf(values).getColumnCount();
 	        will(returnValue(3));
 	    }});
-
-	    // Mocking getValue() method to return non-null value for valid row and column index
 	    mockingContext.checking(new Expectations() {{
 	        allowing(values).getValue(0, 0);
-	        will(returnValue(1)); // Mocking a non-null value
-	        allowing(values).getValue(0, 3); // This case is invalid, so getValue() won't be called for this index
+	        will(returnValue(1));
+	        allowing(values).getValue(0, 3);
 	    }});
-
 	    int[] invalidCols = {0, 3};
 	    DataUtilities.calculateRowTotal(values, 0, invalidCols);
 	}
 	
-    @Test
+	@Test
     public void calculateRowTotalWithMixedValuesAndValidCols() {
         mockingContext.checking(new Expectations() {{
             oneOf(values).getColumnCount();
             will(returnValue(4));
-            oneOf(values).getValue(0, 0);
+            oneOf(values).getValue(0,0);
             will(returnValue(5.0));
-            oneOf(values).getValue(0, 1);
+            oneOf(values).getValue(0,1);
             will(returnValue(-3.0));
-            oneOf(values).getValue(0, 2);
+            oneOf(values).getValue(0,2);
             will(returnValue(10.0));
-            oneOf(values).getValue(0, 3);
+            oneOf(values).getValue(0,3);
             will(returnValue(2.0));
         }});
 
         // exercise
-        int[] validCols = {0, 1, 2, 3}; // Ensure all columns are included
+        int[] validCols = {0,1, 2, 3};
         double result = DataUtilities.calculateRowTotal(values, 0, validCols);
 
         // verify
-        assertEquals(14.0, result, .000000001d); // The sum of all values in the row
+        assertEquals(14.0, result, .000000001d);
 
         // tear-down: NONE in this test method
-    }
+	}
 	
 	@After
 	public void tearDown() throws Exception {
