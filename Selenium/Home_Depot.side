@@ -1,0 +1,2727 @@
+{
+  "id": "48636730-7878-434e-babe-f7a971629a37",
+  "version": "2.0",
+  "name": "Home Depot",
+  "url": "https://www.homedepot.ca/en/home.html",
+  "tests": [{
+    "id": "dec44c89-d62f-444b-9c07-7964ccfe8a4b",
+    "name": "TestAddToCartMultipleItems",
+    "commands": [{
+      "id": "7cc350df-6705-4963-9c93-b72d64456534",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c12adab4-6796-4cfb-8f32-a7c1a3d2e41a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74742525-ffb9-457d-b5d1-b6870b4db8fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db5712b-b3d6-40ff-b3ae-95cf28220d2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d126e9f-1014-4e09-b4b9-2469cee7d840",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "277d67ac-e812-429f-80ae-f8de7aa34f95",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f36ef57-6741-43e2-bb26-417ea08fe1d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item:nth-child(3) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b6940b7-84c7-4d24-8fa6-013323150bf6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item:nth-child(3) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "95914de5-10a8-459a-88a9-16afda9bfaad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Propane BBQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb7125d-8301-4796-9098-83782b9c7700",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,470)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88c2310c-5208-47c3-96cb-8785974a519f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7e0a3bd-a79c-4002-8b8e-624d0c6ebb76",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f1acfc-2d32-48f4-8f08-b3bbd51cc822",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7dc9190-cdd2-4837-a25b-cadd3c0cdec2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c8d154-9515-4061-869c-01015691c62b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "273eed41-ea4f-491f-a4d3-8eb16f7619fd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-pricing-price-value",
+      "targets": [
+        ["css=.hdca-product__description-pricing-price-value", "css:finder"],
+        ["xpath=//div[2]/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$358.00')]", "xpath:innerText"]
+      ],
+      "value": "$358.00"
+    }, {
+      "id": "bd20a378-76c8-4f1a-8b28-fae2e2fbf556",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span > .acl-mr--xx-small:nth-child(1)",
+      "targets": [
+        ["css=span > .acl-mr--xx-small:nth-child(1)", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'37')]", "xpath:innerText"]
+      ],
+      "value": "37"
+    }, {
+      "id": "2acc1bc4-6dfd-47d0-9574-2e7420dfebcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div/div/div[2]/div/acl-qty-input-container/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17944167-38a7-4bef-9914-e99a63bf5035",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "c3916b19-939b-4e8b-9dd2-927cbc008c86",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "7fffd0ed-4b87-4ce5-a130-531b84d71e2d",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div/div/div[2]/div/acl-qty-input-container/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "8"
+    }, {
+      "id": "9d3c7b5e-204f-455e-8931-82a13a2e8812",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5089b037-331b-4825-8c14-cfce6842808b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-border--bottom:nth-child(1)",
+      "targets": [
+        ["css=.acl-border--bottom:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "8 Item(s) in Cart"
+    }, {
+      "id": "4d092771-9ff6-4812-a704-d9c21764bd78",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--xxx-small > .acl-wspace--nowrap",
+      "targets": [
+        ["css=.acl-pt--xxx-small > .acl-wspace--nowrap", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[2]/div/div/div/div/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$358.00 / each')]", "xpath:innerText"]
+      ],
+      "value": "$358.00 / each"
+    }, {
+      "id": "06b715f6-25f2-46ec-a4ae-d2b147ffa6ba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-align--right:nth-child(1)",
+      "targets": [
+        ["css=.acl-align--right:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": "$2,864.00"
+    }, {
+      "id": "d9735418-22da-4423-92fb-094e33ef957c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d0177aa7-92c0-4a93-9ece-bf6437f14c2b",
+    "name": "TestAddToCartSingleItem",
+    "commands": [{
+      "id": "281d70f0-d42f-4361-a2a8-896e0cba7971",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13364bdb-c8b5-4e4d-91e6-89df7cb865a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35894608-f7e5-40e3-9cf8-5214733067c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dfc27f6-1ccb-4902-9d88-8dbad4dd1224",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20cac23c-e4f2-433d-bb5a-0d89fe1c700f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e4094d0-d40b-4589-8a5e-036a224e7618",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a841d3-5360-4264-97dd-6594d76f7ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item:nth-child(3) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7711b25d-f573-41a6-9b56-feaae298f0ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item:nth-child(3) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfa877a6-b5c7-45ed-9105-144e0810f35c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Propane BBQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc974ad2-9894-4ff9-89fc-47b8309151ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,470)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ed8c4ae-d436-469e-9fae-ab52ce972e05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "674cb254-5f3e-4e7b-ab25-272fa37087fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "344ed7c6-43cc-4ad0-bbcc-4b447250565c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack",
+      "targets": [
+        ["linkText=Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack", "linkText"],
+        ["css=.acl-product-card:nth-child(3) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/nexgrill-5-burner-propane-gas-grill-in-stainless-steel-with-side-burner-and-condiment-rack/1001486342')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/section/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nexgrill 5-Burner Propane Gas Grill in Stainless Steel with Side Burner and Condiment Rack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7b79dc-ec47-4d4b-8283-f71aa3a7f636",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6712840-9545-4967-9cfe-398e910a6c5d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fba445d-4782-481c-980a-89cc82eb4197",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-pricing-price-value",
+      "targets": [
+        ["css=.hdca-product__description-pricing-price-value", "css:finder"],
+        ["xpath=//div[2]/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$358.00')]", "xpath:innerText"]
+      ],
+      "value": "$358.00"
+    }, {
+      "id": "20063b00-182b-417d-bb5e-4dd42d49eaba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span > .acl-mr--xx-small:nth-child(1)",
+      "targets": [
+        ["css=span > .acl-mr--xx-small:nth-child(1)", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'37')]", "xpath:innerText"]
+      ],
+      "value": "37"
+    }, {
+      "id": "3775d41c-47f2-4705-afd7-4979bc758c15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div/div/div[2]/div/acl-qty-input-container/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a72b519-f701-4271-b840-74ec0a26d2e6",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "d5abffb2-29e1-4f4b-bf3c-fa2660b9162f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "cf1f6340-cd1e-46e7-aa0e-0572ef54a491",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div/div/div[2]/div/acl-qty-input-container/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "cdd3342a-9190-495d-a4e1-636ff46be856",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffd66e13-4dc9-497f-bc8a-5c290f09ee24",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-border--bottom:nth-child(1)",
+      "targets": [
+        ["css=.acl-border--bottom:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "1 Item(s) in Cart"
+    }, {
+      "id": "bdc947aa-e795-441c-bb4d-fc365283b5fe",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--xxx-small > .acl-wspace--nowrap",
+      "targets": [
+        ["css=.acl-pt--xxx-small > .acl-wspace--nowrap", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[2]/div/div/div/div/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$358.00 / each')]", "xpath:innerText"]
+      ],
+      "value": "$358.00 / each"
+    }, {
+      "id": "6164ba3a-23e3-4570-a5f3-d6738daf0aed",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-align--right:nth-child(1)",
+      "targets": [
+        ["css=.acl-align--right:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": "$358.00"
+    }, {
+      "id": "8cc6bd3e-b537-472f-bf9a-399ea8bfeea3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d6ab435-4581-45fe-a375-3c865271a3ca",
+    "name": "TestProductSearchBar",
+    "commands": [{
+      "id": "7281f961-c3bd-44b9-92c7-21019108636e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bedbb318-babe-4dac-9510-a08463664fd1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "796e2379-63f8-4b3c-b9c8-77c6036c658b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id5234", "id"],
+        ["css=#id5234", "css:finder"],
+        ["xpath=//input[@id='id5234']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfcdebcc-f18d-4ce0-8873-ae4dce1d4aef",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7856", "id"],
+        ["css=#id7856", "css:finder"],
+        ["xpath=//input[@id='id7856']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pizza oven"
+    }, {
+      "id": "940dd082-09b0-48c3-b854-d863b289df24",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7856", "id"],
+        ["css=#id7856", "css:finder"],
+        ["xpath=//input[@id='id7856']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dedb0fa1-bf42-4392-bf3e-8e580fe078df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,226)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2b1d81b-49bb-405c-9cbc-0b552a98f6af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,465)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d13fce32-8430-4285-a6f0-9b442b1d769d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Pizza Oven Kit with Peel and Spatula"
+    }, {
+      "id": "07c1971b-66ef-4222-87e7-5c13cb2fc413",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(2) .acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) .acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//article[2]/div[3]/section/div/div/h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Ora 12-inch Propane Gas Outdoor Pizza Oven"
+    }, {
+      "id": "15411247-381f-4d27-a459-be8607919a19",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(8) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(8) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//article[8]/div[3]/section/div/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Forno Venetzia ')]", "xpath:innerText"]
+      ],
+      "value": "Forno Venetzia"
+    }, {
+      "id": "d4a34da8-8bcb-41a6-b7e5-5ac8d3832e5d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(6) .acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card:nth-child(6) .acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//article[6]/div[3]/section/div/div/h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "16-inch Pizza Oven System"
+    }]
+  }, {
+    "id": "b425162f-6e5b-47c5-8bf1-11185b9c03ed",
+    "name": "TestProductSearchFilterBrandName",
+    "commands": [{
+      "id": "3e46a994-d8c5-4524-8b71-2324b36845e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baaa370d-f5ec-48f7-8af9-93783a5effbd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b6f58a5-c8f7-4d94-a45f-b672e6277fbf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7350", "id"],
+        ["css=#id7350", "css:finder"],
+        ["xpath=//input[@id='id7350']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e106a96-c67d-43d8-a569-c595e600f5b9",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7350", "id"],
+        ["css=#id7350", "css:finder"],
+        ["xpath=//input[@id='id7350']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pizza oven"
+    }, {
+      "id": "623257c9-65c2-4e88-89d0-d9ac1ea30d05",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7350", "id"],
+        ["css=#id7350", "css:finder"],
+        ["xpath=//input[@id='id7350']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "aba9a44d-a8f8-4319-bcb6-194de47ecca3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Bakerstone Pizza Oven Kit with Peel and Spatula",
+      "targets": [
+        ["linkText=Bakerstone Pizza Oven Kit with Peel and Spatula", "linkText"],
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/bakerstone-pizza-oven-kit-with-peel-and-spatula/1000821662')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bakerstone Pizza Oven Kit with Peel and Spatula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa6b0e9-6caf-4ff0-a54e-17706c3e3d62",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Bakerstone Pizza Oven Kit with Peel and Spatula",
+      "targets": [
+        ["linkText=Bakerstone Pizza Oven Kit with Peel and Spatula", "linkText"],
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/bakerstone-pizza-oven-kit-with-peel-and-spatula/1000821662')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bakerstone Pizza Oven Kit with Peel and Spatula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5627a65-effe-43e1-88f9-e80f960ef8e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bakerstone ')]", "xpath:innerText"]
+      ],
+      "value": "Bakerstone"
+    }, {
+      "id": "5e73bf9e-3ffb-4a32-9977-bf6140b05bc7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(2) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//article[2]/div[3]/section/div/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nexgrill ')]", "xpath:innerText"]
+      ],
+      "value": "Nexgrill"
+    }, {
+      "id": "c4ee1c84-8c79-401c-9385-21b8530fdd6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-1 > svg",
+      "targets": [
+        ["css=.ng-tns-c76-1 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6f295f-ae8b-4500-a361-be1dd08c12f4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-row:nth-child(2) .hdca-form-field__label-text",
+      "targets": [
+        ["css=.acl-row:nth-child(2) .hdca-form-field__label-text", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Brand Name0']/div[3]/facet-search-list-shared/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bakerstone (2)')]", "xpath:innerText"]
+      ],
+      "value": "Bakerstone (2)"
+    }, {
+      "id": "d1b95dbc-4d8d-495a-8792-69c6d32047e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-row:nth-child(2) .hdca-checkbox__faux-checkbox",
+      "targets": [
+        ["css=.acl-row:nth-child(2) .hdca-checkbox__faux-checkbox", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Brand Name0']/div[3]/facet-search-list-shared/div[2]/label/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d70031e-2261-450c-8417-6df1c1a2dbb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card-group",
+      "targets": [
+        ["css=.acl-product-card-group", "css:finder"],
+        ["xpath=//acl-product-card-group", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92db6d76-8e9a-4e24-a616-4400aa7a8909",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bakerstone ')]", "xpath:innerText"]
+      ],
+      "value": "Bakerstone"
+    }, {
+      "id": "84d18614-3057-4af1-936f-82e9721a77dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(2) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//article[2]/div[3]/section/div/div/h2/a/span", "xpath:position"]
+      ],
+      "value": "Bakerstone"
+    }]
+  }, {
+    "id": "8a468ece-69ef-4c67-a2ff-962e7e8e4a79",
+    "name": "TestProductSearchFilterFuelType",
+    "commands": [{
+      "id": "bbff8b0f-d1cc-443c-82fb-df904c626d7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c77e78c-42b7-4fd2-acc5-f6b566fe3356",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "661799d6-9ef9-4c6f-a488-ef6553dd4a14",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1302", "id"],
+        ["css=#id1302", "css:finder"],
+        ["xpath=//input[@id='id1302']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbba47a6-31ca-4b05-8053-d5abcfe291ff",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1302", "id"],
+        ["css=#id1302", "css:finder"],
+        ["xpath=//input[@id='id1302']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pizza oven"
+    }, {
+      "id": "04773e8c-1dc9-4f21-8de7-3e50832adc4f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1302", "id"],
+        ["css=#id1302", "css:finder"],
+        ["xpath=//input[@id='id1302']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ade401be-2060-41ef-993d-c627ccc9b63f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-2 > .acl-dropdown__toggle",
+      "targets": [
+        ["css=.ng-tns-c76-2 > .acl-dropdown__toggle", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div/div", "xpath:idRelative"],
+        ["xpath=//acl-dropdown[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9895c86d-93e6-48e5-a1ee-6d629d357e75",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-row:nth-child(3) .hdca-form-field__label-text",
+      "targets": [
+        ["css=.acl-row:nth-child(3) .hdca-form-field__label-text", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div[3]/facet-search-list-shared/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electric (1)')]", "xpath:innerText"]
+      ],
+      "value": "Electric (1)"
+    }, {
+      "id": "60316aab-87b5-4b08-8c65-4b52e87827fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-row:nth-child(3) .hdca-checkbox__faux-checkbox",
+      "targets": [
+        ["css=.acl-row:nth-child(3) .hdca-checkbox__faux-checkbox", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div[3]/facet-search-list-shared/div[3]/label/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c0f330-080f-4b2d-bfb0-02ec92a2fe16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "374f0c9f-b455-436f-96fd-83d35ba116be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//h2/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2922418-c285-420f-b558-c29fea20ca56",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19e1e079-f8e7-47d1-afe7-d75d5ee066de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,249)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9f1b129-2b3f-4f30-aed2-d72bd637b12e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1065)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe48792a-cb70-4ff3-801e-03afb12d3264",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2286)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a873fb96-777b-49e7-a763-09c707b65460",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f20daa4-e212-4123-931b-b3d54abbf675",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--medium:nth-child(4) .acl-title:nth-child(11)",
+      "targets": [
+        ["css=.acl-pt--medium:nth-child(4) .acl-title:nth-child(11)", "css:finder"],
+        ["xpath=//product-specifications[@id='productSpecificationId']/section/div/section[2]/dl/dt[6]", "xpath:idRelative"],
+        ["xpath=//section[2]/dl/dt[6]", "xpath:position"],
+        ["xpath=//dt[contains(.,'Fuel Type')]", "xpath:innerText"]
+      ],
+      "value": "Fuel Type"
+    }, {
+      "id": "4d35cf18-1e5c-408f-9367-a344a3042344",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--medium:nth-child(4) .ng-star-inserted:nth-child(12)",
+      "targets": [
+        ["css=.acl-pt--medium:nth-child(4) .ng-star-inserted:nth-child(12)", "css:finder"],
+        ["xpath=//product-specifications[@id='productSpecificationId']/section/div/section[2]/dl/dd[6]", "xpath:idRelative"],
+        ["xpath=//section[2]/dl/dd[6]", "xpath:position"],
+        ["xpath=//dd[contains(.,'Electric')]", "xpath:innerText"]
+      ],
+      "value": "Electric"
+    }, {
+      "id": "cd14db38-3bb4-4ead-ae38-96c0ed8fc785",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c892c5ed-e625-48b5-8f70-97447b079127",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-41 use",
+      "targets": [
+        ["css=.ng-tns-c76-41 use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "db29cf30-e4e9-4ade-a06e-7ce486048600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-row:nth-child(3) .hdca-checkbox__faux-checkbox",
+      "targets": [
+        ["css=.acl-row:nth-child(3) .hdca-checkbox__faux-checkbox", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div[3]/facet-search-list-shared/div[3]/label/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901f7599-d78d-42a2-b5ca-5b2cf7bd8de2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c56fc97d-a1c9-4eea-b4c3-e6d8bf688398",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-row:nth-child(7) .hdca-form-field__label-text",
+      "targets": [
+        ["css=.acl-row:nth-child(7) .hdca-form-field__label-text", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div[3]/facet-search-list-shared/div[7]/label/span", "xpath:idRelative"],
+        ["xpath=//div[7]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wood (12)')]", "xpath:innerText"]
+      ],
+      "value": "Wood (12)"
+    }, {
+      "id": "e19990ee-fec5-4b4c-86d1-b9220defcce0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-row:nth-child(7) .hdca-checkbox__faux-checkbox",
+      "targets": [
+        ["css=.acl-row:nth-child(7) .hdca-checkbox__faux-checkbox", "css:finder"],
+        ["xpath=//acl-dropdown[@id='Fuel Type1']/div[3]/facet-search-list-shared/div[7]/label/div/span", "xpath:idRelative"],
+        ["xpath=//div[7]/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8acb3fb-1061-4950-a937-2834447b96b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9c25f72-caff-4d76-b39e-9fada4953cce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b150cc7-ec46-4866-8a39-2e52eaea1615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//h2/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563c4eb4-474b-48ce-9223-e21a82cb80ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd24c721-1bdd-4e33-ba61-25eb992a4059",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2096)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d44a885-cb80-41e8-b6a9-e8635f27cf73",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--medium:nth-child(4) .acl-title:nth-child(11)",
+      "targets": [
+        ["css=.acl-pt--medium:nth-child(4) .acl-title:nth-child(11)", "css:finder"],
+        ["xpath=//product-specifications[@id='productSpecificationId']/section/div/section[2]/dl/dt[6]", "xpath:idRelative"],
+        ["xpath=//section[2]/dl/dt[6]", "xpath:position"],
+        ["xpath=//dt[contains(.,'Fuel Type')]", "xpath:innerText"]
+      ],
+      "value": "Fuel Type"
+    }, {
+      "id": "e65ce958-4598-44bc-a584-e019354daa58",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pt--medium:nth-child(4) .ng-star-inserted:nth-child(12)",
+      "targets": [
+        ["css=.acl-pt--medium:nth-child(4) .ng-star-inserted:nth-child(12)", "css:finder"],
+        ["xpath=//product-specifications[@id='productSpecificationId']/section/div/section[2]/dl/dd[6]", "xpath:idRelative"],
+        ["xpath=//section[2]/dl/dd[6]", "xpath:position"],
+        ["xpath=//dd[contains(.,'Firewood, Wood')]", "xpath:innerText"]
+      ],
+      "value": "Firewood, Wood"
+    }, {
+      "id": "bda49971-27e2-4214-b934-0f43a0bd6ae4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d29a0ec-737f-48e9-87e3-62754d99c36c",
+    "name": "TestCompareProducts2Products",
+    "commands": [{
+      "id": "19e21f7b-ec2d-4da1-b33a-204f6f1949db",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfde149f-305a-4768-8cef-313c5dd3ab44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ac49b8f-4084-411d-ac84-5a24c2456480",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c76847-b838-4fd6-91dd-f01754d037a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bath')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b17bea21-2d05-49a4-b338-5016081c1e72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bathroom Faucets & Shower Heads",
+      "targets": [
+        ["linkText=Bathroom Faucets & Shower Heads", "linkText"],
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/bath/bathroom-faucets-and-shower-heads.html')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bathroom Faucets & Shower Heads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e324647-4a57-49c4-87f8-0db61e10d2d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[2]/div/div/div/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shower Faucets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f4702a-ae59-4b4a-949c-fe5ca265ab11",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,351)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f21b3ba-9250-4f24-8c67-8910cebd320e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,838)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9ddbb0f-ad54-4893-9cbb-58edeb00576b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__image .acl-image__image",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__image .acl-image__image", "css:finder"],
+        ["xpath=//img[@alt='Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome']", "xpath:img"],
+        ["xpath=//div[2]/a/acl-image/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc4f550-e432-4d20-9e8f-961c1ea7184a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b307e81-a0ce-491f-9c34-f4410f7df1cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(2) .acl-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) .acl-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//article[2]/section/div/div/acl-checkbox-container/div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2d6002-0657-403d-8990-1b0f9547f0ab",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-shelf__title",
+      "targets": [
+        ["css=.acl-shelf__title", "css:finder"],
+        ["xpath=//header/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Selected 2 of 4 items')]", "xpath:innerText"]
+      ],
+      "value": "Selected 2 of 4 items"
+    }, {
+      "id": "fb7ba69c-5bb5-4b8d-aa04-976b515d0475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--size--medium > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium > .acl-button__label", "css:finder"],
+        ["xpath=//section/div/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cae38e44-a76e-48ff-b6db-e6a4ebdfec89",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e6e7f9a-5674-4053-b549-d13001f7e234",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-position--relative:nth-child(2) .acl-image__image:nth-child(2)",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(2) .acl-image__image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome']", "xpath:img"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/div/div/a/acl-image/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a58a3d3-f0bb-4140-aad7-a69a0df482d2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-position--relative:nth-child(2) .acl-image__image:nth-child(2)",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(2) .acl-image__image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome']", "xpath:img"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/div/div/a/acl-image/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dd16b25-99b0-4017-b3cb-ab1de897f161",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title--product-name", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/section/h2/a/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome"
+    }, {
+      "id": "2fe82546-7a9a-440b-82de-a8f1a0cd5296",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-position--relative:nth-child(3) .acl-mini-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(3) .acl-mini-product-card__title--product-name", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th[2]/div/span/article/section/h2/a/span[2]", "xpath:idRelative"],
+        ["xpath=//th[2]/div/span/article/section/h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Adler Single-Handle 4-Spray Bathroom Shower Faucet with Rain Shower Head in Chrome (Valve Included)"
+    }, {
+      "id": "4e27b9e6-d5bf-4c99-a1ff-b4a98639659e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-compare-page__product-card-container:nth-child(4) .acl-text-size--medium",
+      "targets": [
+        ["css=.acl-product-compare-page__product-card-container:nth-child(4) .acl-text-size--medium", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/td[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": "Compare More"
+    }, {
+      "id": "01379ac5-6bb5-48cb-98b2-b1b9bacdf643",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-compare-page__product-card-container:nth-child(5) .acl-text-size--medium",
+      "targets": [
+        ["css=.acl-product-compare-page__product-card-container:nth-child(5) .acl-text-size--medium", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/td[3]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//td[3]/div/a/div/div", "xpath:position"]
+      ],
+      "value": "Compare More"
+    }]
+  }, {
+    "id": "eac4941a-6534-40c1-b348-99338fef9907",
+    "name": "TestCompareProducts3Products",
+    "commands": [{
+      "id": "a481a26a-466b-45a2-897f-43b114fc9827",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be92cd1b-532a-43f9-948b-f91d49756289",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6814fd6-a504-4683-ba6b-2bda69317fcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon > svg",
+      "targets": [
+        ["css=.acl-main-nav-item__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e4f21b-a1fe-4a03-975d-af13f70f130f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e1aee4-a7ec-4644-bcf5-8a05e62e6771",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bath",
+      "targets": [
+        ["linkText=Bath", "linkText"],
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/bath.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bath')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe53d3fc-b62d-4b2a-b721-f01fa0efd989",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee9600f2-4156-4de5-90eb-3fbaacbd4c67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e085cdac-605b-497d-b6f6-2f0c204bcdb9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(2) .acl-flyout-category-menu-item__link svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5ea3d2-f33c-48c3-a271-cca6d3ac733f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[2]/div/div/div/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shower Faucets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90622552-27d9-4246-878d-a9a1c9948d67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,58)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b4022b0-2f49-49b4-b09e-7398b7959bc9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f5d55d3-9bc7-4d9c-a729-c478f14e9802",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "983cd644-5ca6-4416-9b94-87b5970e8088",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(2) .acl-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) .acl-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//article[2]/section/div/div/acl-checkbox-container/div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66c96875-73cd-4966-9ad1-3493f9f80552",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(3) .acl-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.acl-product-card:nth-child(3) .acl-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//article[3]/section/div/div/acl-checkbox-container/div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95fb6e9e-151b-438d-b564-917fe098b6e8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-shelf__title",
+      "targets": [
+        ["css=.acl-shelf__title", "css:finder"],
+        ["xpath=//header/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Selected 3 of 4 items')]", "xpath:innerText"]
+      ],
+      "value": "Selected 3 of 4 items"
+    }, {
+      "id": "b6fa86ac-d6f6-4f91-b9bc-60b95b911ef1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--size--medium > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium > .acl-button__label", "css:finder"],
+        ["xpath=//section/div/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f40ab10-f160-4b3a-b4c5-c763ef8474a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8913cea8-7cda-49f8-bedd-bf6d2bdfe20b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-position--relative:nth-child(3) .acl-button",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(3) .acl-button", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th[2]/div/span/article/section/div/button", "xpath:idRelative"],
+        ["xpath=//th[2]/div/span/article/section/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e9990e-86dd-4899-848b-bee0450cb1d1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-position--relative:nth-child(3) .acl-button",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(3) .acl-button", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th[2]/div/span/article/section/div/button", "xpath:idRelative"],
+        ["xpath=//th[2]/div/span/article/section/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "646cd389-3afa-4495-884b-08f56913dac6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome",
+      "targets": [
+        ["linkText=MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome", "linkText"],
+        ["css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title-link", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/section/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/product/moen-adler-single-handle-round-wall-mount-1-spray-bathtub-shower-faucet-with-rain-shower-head-in-chrome/1000111521')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a9a1264-1064-440e-8111-4b8a814cf1c9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome",
+      "targets": [
+        ["linkText=MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome", "linkText"],
+        ["css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title-link", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/section/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/product/moen-adler-single-handle-round-wall-mount-1-spray-bathtub-shower-faucet-with-rain-shower-head-in-chrome/1000111521')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MOEN Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1ef866-2e9b-475c-a1f1-bc7ac5e0d3eb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(2) .acl-mini-product-card__title--product-name", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th/div/span/article/section/h2/a/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Adler Single Handle Round Wall Mount 1-Spray Bathtub Shower Faucet with Rain Shower Head in Chrome"
+    }, {
+      "id": "4f454943-6f32-40e7-8f09-57f265252d60",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-position--relative:nth-child(3) .acl-mini-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(3) .acl-mini-product-card__title--product-name", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th[2]/div/span/article/section/h2/a/span[2]", "xpath:idRelative"],
+        ["xpath=//th[2]/div/span/article/section/h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Adler Single-Handle 4-Spray Bathroom Shower Faucet with Rain Shower Head in Chrome (Valve Included)"
+    }, {
+      "id": "4500cc9a-4268-49f9-9535-d9d1653dc672",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-position--relative:nth-child(4) .acl-mini-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-position--relative:nth-child(4) .acl-mini-product-card__title--product-name", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/th[3]/div/span/article/section/h2/a/span[2]", "xpath:idRelative"],
+        ["xpath=//th[3]/div/span/article/section/h2/a/span[2]", "xpath:position"]
+      ],
+      "value": "Genta Single-Handle 1-Spray Bathtub Shower Faucet with Rain Shower Head in Matte Black (Valve Included)"
+    }, {
+      "id": "44af3b8a-cc62-4405-9944-ae6ffe0ee7bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-text-size--medium",
+      "targets": [
+        ["css=.acl-text-size--medium", "css:finder"],
+        ["xpath=//table[@id='stickyHeaderTarget']/thead/tr/td[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": "Compare More"
+    }, {
+      "id": "21cc34e0-2af1-4975-88c0-1cab4baa7952",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b373bcb8-19ff-4aec-9a5d-3b41348493e2",
+    "name": "TestViewCart1",
+    "commands": [{
+      "id": "5c8ba8fd-0600-439f-bf79-b0e74388d0af",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f71e9a8-1193-4041-91c2-c6dade857821",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c08aca01-2684-4ea9-9a4b-d2d160e689af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon > svg",
+      "targets": [
+        ["css=.acl-main-nav-item__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "142792d4-4afe-4385-8990-c17b8845641d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kitchen",
+      "targets": [
+        ["linkText=Kitchen", "linkText"],
+        ["css=.acl-flyout-category-menu-item:nth-child(14) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[14]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/kitchen.html')]", "xpath:href"],
+        ["xpath=//acl-flyout-category-menu-item[14]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a0fa7c7-09a3-44e6-9324-29aa2b9ccb28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65226b49-2399-4ffe-8fb3-54ded7f6bbdc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aae65a2-e660-43df-80ba-33a714e44155",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01cec435-8039-4bdf-a766-52dcae1ee229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[3]/div/div/div/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Laminate Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e278fc4-8222-4556-afa4-49a799af7181",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,87)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c206ee1-e93a-4bd1-b9da-b87dab62ca41",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "267cd25b-81bc-4dc3-9de3-ce1cbbf3ce10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6e4f9c-467a-47ce-99f3-782ed0dc22b6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-border--bottom",
+      "targets": [
+        ["css=.acl-border--bottom", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": "1 Item(s) in Cart"
+    }, {
+      "id": "5a033fd2-cd62-4033-9ddd-2126e61d7cb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "204f4ef8-35ed-4a61-ac14-eda449865a11",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,34)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e5bf9c9-a93c-43d0-b0c3-defc1f938e71",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "1 item(s)"
+    }, {
+      "id": "e134465e-4aa2-4f48-88b3-44f76fd08056",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-pr--small:nth-child(1)",
+      "targets": [
+        ["css=.acl-pr--small:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$144.00 / each')]", "xpath:innerText"]
+      ],
+      "value": "$144.00 / each"
+    }, {
+      "id": "f8fa95da-efb8-4a34-a566-2bbb1f517995",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-lheight--large:nth-child(1) > div:nth-child(1)",
+      "targets": [
+        ["css=.acl-lheight--large:nth-child(1) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Order Subtotal"
+    }, {
+      "id": "e0de6a7a-0280-4c6f-8bcd-3b34eae49e9e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-flex--row:nth-child(1) > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-flex--row:nth-child(1) > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "$144.00"
+    }, {
+      "id": "67f6a6b1-0d4a-41fd-a54f-ba031c864f2e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6b2e0548-3335-4d9c-86d6-43bbe01e2177",
+    "name": "TestViewCart2",
+    "commands": [{
+      "id": "1e9ea525-2f35-42ab-a96d-02ce61a933db",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81893f61-da2a-4867-a067-00424fe2bd58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86effb0e-155c-4503-9e70-7742deb2704d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon > svg",
+      "targets": [
+        ["css=.acl-main-nav-item__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d98f78f-4e34-4a21-9beb-f45f95931cdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kitchen",
+      "targets": [
+        ["linkText=Kitchen", "linkText"],
+        ["css=.acl-flyout-category-menu-item:nth-child(14) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[14]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/kitchen.html')]", "xpath:href"],
+        ["xpath=//acl-flyout-category-menu-item[14]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa90bb2-0649-4f10-a3c8-e6e076a47ab4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57463fdf-6ffc-44f4-ab16-88b5364a1ad3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a764004b-a8d9-41b6-b009-bae2f698c1cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cc27be3-71d4-44c8-a079-727fefe29c94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[3]/div/div/div/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Laminate Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de0d405-d8d1-428c-93b8-b30178a8f43c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,87)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8afd84c-fe7b-4f5d-92bf-b92d552ceb88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38e458f7-7f50-4ff1-ae8e-888e4a4de6fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b302f6e-754a-4c64-9282-5efc146621d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-panel-product-card__description > .acl-weight--bold",
+      "targets": [
+        ["css=.acl-panel-product-card__description > .acl-weight--bold", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[2]/div/div/div/div/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'HDG ')]", "xpath:innerText"]
+      ],
+      "value": "HDG "
+    }, {
+      "id": "5454f46d-5d8e-42ef-995c-95bd6504446c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-border--bottom",
+      "targets": [
+        ["css=.acl-border--bottom", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": "1 Item(s) in Cart"
+    }, {
+      "id": "1544037c-98ab-447c-b8e0-7917ec16c435",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-align--right:nth-child(1)",
+      "targets": [
+        ["css=.acl-align--right:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": "$144.00"
+    }, {
+      "id": "1606fb2b-632c-463c-ba5e-2b781f5b0f62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a93a43-8533-4bc6-82c5-807512d85ac4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item:nth-child(1) .acl-rating__stars-overlay:nth-child(1)",
+      "targets": [
+        ["css=.item:nth-child(1) .acl-rating__stars-overlay:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[4]/hdca-carousel/div/div/ngu-carousel/div/div/div/ngu-tile/div/article/section[2]/div/div/acl-rating/a/div/span", "xpath:idRelative"],
+        ["xpath=//acl-rating/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d7dfa1-a8f2-493e-b1a2-8022f8b2d15b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(3) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(3) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//article[3]/section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd313e1-f73c-4d4c-a60c-6c9461f6b96c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89331dd2-f6a3-44df-99ff-951e9c5d467a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-panel-product-card__description > .acl-weight--bold",
+      "targets": [
+        ["css=.acl-panel-product-card__description > .acl-weight--bold", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[2]/div/div/div/div/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hampton Bay ')]", "xpath:innerText"]
+      ],
+      "value": "Hampton Bay "
+    }, {
+      "id": "a3090b3c-4520-459b-b103-2a0678dc97d0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-border--bottom",
+      "targets": [
+        ["css=.acl-border--bottom", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": "2 Item(s) in Cart"
+    }, {
+      "id": "14bc7926-7b4b-4e32-9b1b-5878abd3952c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-align--right:nth-child(1)",
+      "targets": [
+        ["css=.acl-align--right:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$309.00')]", "xpath:innerText"]
+      ],
+      "value": "$309.00"
+    }, {
+      "id": "abdb36cc-e4ae-420b-b1b3-f8504bd2b90b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "383632d2-6d0d-4ba3-8da3-0d60acc0f3c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,34)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b8272ea-e507-499b-88a5-20078d256014",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--title-dark > .acl-weight--regular",
+      "targets": [
+        ["css=.acl-color--title-dark > .acl-weight--regular", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "2 item(s)"
+    }, {
+      "id": "fa5f1f93-6d1a-43a4-b98d-01e93e5b8890",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted:nth-child(2) > .ng-star-inserted:nth-child(1) > .acl-border--top:nth-child(1) .acl-col--9:nth-child(1) .acl-text-size--medium:nth-child(1)",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) > .ng-star-inserted:nth-child(1) > .acl-border--top:nth-child(1) .acl-col--9:nth-child(1) .acl-text-size--medium:nth-child(1)", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'HDG 6 ft. Laminate Countertop Concrete with ABS Edge')]", "xpath:innerText"]
+      ],
+      "value": "HDG 6 ft. Laminate Countertop Concrete with ABS Edge"
+    }, {
+      "id": "4b56aaf0-5283-4e23-8d04-16d885f68766",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted:nth-child(2) > .ng-star-inserted > .acl-border--top .acl-title",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) > .ng-star-inserted > .acl-border--top .acl-title", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "$144.00"
+    }, {
+      "id": "5b3b7e2a-0d92-4f66-a116-b9e8718664d0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted:nth-child(3) > .ng-star-inserted:nth-child(1) .acl-col--9:nth-child(1) .acl-text-size--medium:nth-child(1)",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(3) > .ng-star-inserted:nth-child(1) .acl-col--9:nth-child(1) .acl-text-size--medium:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/cart-product-card/div/div/div[2]/div/div/product-description/div/h3", "xpath:position"]
+      ],
+      "value": "Hampton Bay 74-inch Laminate Countertop BUTCHER BLOCK OAK"
+    }, {
+      "id": "7a0fb578-eeea-42ba-8709-19524d917c09",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted:nth-child(3) > .ng-star-inserted > .acl-border--top .acl-title",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(3) > .ng-star-inserted > .acl-border--top .acl-title", "css:finder"],
+        ["xpath=//div[2]/cart-product-card/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "$165.00"
+    }, {
+      "id": "4929a4c9-8678-4b36-95c6-b392bc1004f8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-lheight--large:nth-child(1) > div:nth-child(1)",
+      "targets": [
+        ["css=.acl-lheight--large:nth-child(1) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Order Subtotal"
+    }, {
+      "id": "82efe856-f005-4764-9f2d-7dd15f43d696",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-flex--row:nth-child(1) > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-flex--row:nth-child(1) > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "$309.00"
+    }, {
+      "id": "b28f8630-e39e-44c6-92e8-ec5ea51c22db",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a5a79fd6-9105-4d20-ab04-f3f1e05ab4cc",
+    "name": "TestViewCart3",
+    "commands": [{
+      "id": "4f3a18f2-2b0c-4eeb-8ebb-47ef21dae0f6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd9c4b0-596e-40d4-af67-5c36c4b18092",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2bbabd5-50c6-4d81-af66-323f14610105",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-main-nav-item__icon > svg",
+      "targets": [
+        ["css=.acl-main-nav-item__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5be5b4-104e-4630-8c76-0a083d2f1c21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kitchen",
+      "targets": [
+        ["linkText=Kitchen", "linkText"],
+        ["css=.acl-flyout-category-menu-item:nth-child(14) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[14]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/kitchen.html')]", "xpath:href"],
+        ["xpath=//acl-flyout-category-menu-item[14]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7358096c-5ecb-4600-a64d-167dc44b80a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9673e64-519e-4f96-bbf6-3ef1ee91f1be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee4681a9-75d7-4365-8a16-a6c0c107370f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l2:nth-child(3) > .acl-flyout-category-menu-item__wrapper > .acl-flyout-category-menu-item__link > .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f2f1e6-034b-41cf-b009-1866502d8b2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(2) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item[3]/div/div/div/div[2]/acl-flyout-category-menu-item[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Laminate Countertops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "908e1a4d-f997-4e9b-aafa-9a625b9021f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,87)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "201f6fe1-9f78-420c-beae-b61ce8096fed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e399d795-0571-4184-9c49-a7473532201a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "822f11ca-3b84-49db-b896-d21da53972b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5498377f-14e6-4b95-af79-b6cae1500831",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-icon__notification-badge",
+      "targets": [
+        ["css=.acl-icon__notification-badge", "css:finder"],
+        ["xpath=//acl-icon/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": "1"
+    }, {
+      "id": "f44d5d29-e387-4ed2-8731-91135d8fe848",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-bold-hover__text:nth-child(1)",
+      "targets": [
+        ["css=.acl-bold-hover__text:nth-child(1)", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c624724c-4662-4563-9d69-7714b656afee",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--title-dark",
+      "targets": [
+        ["css=.acl-color--title-dark", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'My Cart: 1 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "My Cart: 1 item(s)"
+    }, {
+      "id": "8713bb91-beb4-43f6-8e08-651fd87d8c27",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-line-limit--3",
+      "targets": [
+        ["css=.acl-line-limit--3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'HDG 6 ft. Laminate Countertop Concrete with ABS Edge')]", "xpath:innerText"]
+      ],
+      "value": "HDG 6 ft. Laminate Countertop Concrete with ABS Edge"
+    }, {
+      "id": "51c9739b-243d-48d8-a6bb-8c0bd580e777",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-lheight--large:nth-child(1) > div:nth-child(1)",
+      "targets": [
+        ["css=.acl-lheight--large:nth-child(1) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Order Subtotal"
+    }, {
+      "id": "b31e2f20-31c7-4183-9d3d-44ef5d1d4944",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-flex--row:nth-child(1) > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-flex--row:nth-child(1) > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//order-summary/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "$144.00"
+    }, {
+      "id": "f78e2800-37d3-41e2-9ecb-dc1299cc558d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9d73037a-2775-4829-b16d-5a415b9956ca",
+    "name": "TestWishlist",
+    "commands": [{
+      "id": "979e7a18-f739-489a-aecd-89336c44bc30",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7bcf59f-7d82-40b5-b8c2-ad89e8e61589",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60919b1a-8c05-46e5-a6d1-eb9dd3d54e40",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Account / Sign In')]",
+      "targets": [
+        ["css=.acl-ml--x-small:nth-child(2)", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account / Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ba43ef-64b4-4a0f-bf7c-8d66799e6116",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id546", "id"],
+        ["css=#id546", "css:finder"],
+        ["xpath=//input[@id='id546']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d79e83c-da54-4180-889f-a0c2078dd44d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id546", "id"],
+        ["css=#id546", "css:finder"],
+        ["xpath=//input[@id='id546']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "aemen.mohsin@ucalgary.ca"
+    }, {
+      "id": "3c0b054a-ece2-4414-847d-13c313d44eb4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id3096", "id"],
+        ["css=#id3096", "css:finder"],
+        ["xpath=//input[@id='id3096']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c5f2d8-e492-492a-a2e7-b1b1dce21088",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id3096", "id"],
+        ["css=#id3096", "css:finder"],
+        ["xpath=//input[@id='id3096']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "abcd1234"
+    }, {
+      "id": "86ad0c52-5c01-4ed0-8a7f-138b2cebeb59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac34e45e-e214-41bf-bf83-9e2634eb66e5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id9619", "id"],
+        ["css=#id9619", "css:finder"],
+        ["xpath=//input[@id='id9619']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd9c419a-03b2-4bed-8505-5bd7927bfce2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id9619", "id"],
+        ["css=#id9619", "css:finder"],
+        ["xpath=//input[@id='id9619']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dishwasher"
+    }, {
+      "id": "c1900ad6-b694-4309-9da2-e828a6a375aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-search-autosuggest__list-item--is-active",
+      "targets": [
+        ["css=.acl-search-autosuggest__list-item--is-active", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-search-typeahead']/div[3]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'dishwasher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b579bb-c8f1-4b16-810e-65dc1b1f4b77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--small--hide:nth-child(5) .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--small--hide:nth-child(5) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop Dishwashers by Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7bd2b2e-b489-4406-b59e-89aec5eedce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--offset--medium--0:nth-child(5) .hdca-image__image",
+      "targets": [
+        ["css=.aem-GridColumn--offset--medium--0:nth-child(5) .hdca-image__image", "css:finder"],
+        ["xpath=//img[@alt='Samsung']", "xpath:img"],
+        ["xpath=//div[5]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8c9167-b9a6-4a2f-80a3-36d4aaae704b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sponsored-banner__item-image",
+      "targets": [
+        ["css=.sponsored-banner__item-image", "css:finder"],
+        ["xpath=//img[@alt='NEW ACCOUNTS ONLY GET THE CARD, SAVE UP TO $100 TODAY*  On your qualifying purchase with a new Home Depot card account. Limited time offer. $25 OFF your first in-store purchase of $100 up to $499.99**.$50 OFF your first in-store purchase of $500 up to $999.99**. $100 OFF your first in-store purchase of $1,000 or more**. Learn More']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbaa7ce4-a6a2-4620-9013-f79834091c56",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sponsored-banner__item-image",
+      "targets": [
+        ["css=.sponsored-banner__item-image", "css:finder"],
+        ["xpath=//img[@alt='NEW ACCOUNTS ONLY GET THE CARD, SAVE UP TO $100 TODAY*  On your qualifying purchase with a new Home Depot card account. Limited time offer. $25 OFF your first in-store purchase of $100 up to $499.99**.$50 OFF your first in-store purchase of $500 up to $999.99**. $100 OFF your first in-store purchase of $1,000 or more**. Learn More']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e78b0805-8049-4264-9b29-fc39843a09eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel",
+      "targets": [
+        ["linkText=Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel", "linkText"],
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/samsung-24-inch-top-control-tall-tub-dishwasher-with-hybrid-tub-53-dba-in-stainless-steel/1001826678')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef8b808-ad30-48ce-9504-9539c49d1363",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel",
+      "targets": [
+        ["linkText=Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel", "linkText"],
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/samsung-24-inch-top-control-tall-tub-dishwasher-with-hybrid-tub-53-dba-in-stainless-steel/1001826678')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccbfd164-6dbc-4c44-8d0c-946e6ccdcbc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-color--brand > svg",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-color--brand > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c17e857b-a64e-41c8-8436-eaf29d71d8db",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted > .acl-pr--small",
+      "targets": [
+        ["css=.ng-star-inserted > .acl-pr--small", "css:finder"],
+        ["xpath=//div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Saved to List"
+    }, {
+      "id": "71c2f84c-d432-4581-acbb-8f394a1976b1",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=View List",
+      "targets": [
+        ["linkText=View List", "linkText"],
+        ["css=.ng-star-inserted .acl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'View List')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/myaccount/my-list')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View List')]", "xpath:innerText"]
+      ],
+      "value": "View List"
+    }, {
+      "id": "ec877153-4976-4520-befc-6a32a0a8d757",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View List",
+      "targets": [
+        ["linkText=View List", "linkText"],
+        ["css=.ng-star-inserted .acl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'View List')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/myaccount/my-list')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52da854-52c2-4276-b5c1-b93d07bc85d6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.md\\3A acl-text-size--xx-large",
+      "targets": [
+        ["css=.md\\3A acl-text-size--xx-large", "css:finder"],
+        ["xpath=//wish-list-page-container/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My List ')]", "xpath:innerText"]
+      ],
+      "value": "My List"
+    }, {
+      "id": "6a9b99ed-d32c-4bec-8ad8-27a4087fdc3e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.md\\3A acl-text-size--x-large",
+      "targets": [
+        ["css=.md\\3A acl-text-size--x-large", "css:finder"],
+        ["xpath=//wish-list-page-container/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 item)')]", "xpath:innerText"]
+      ],
+      "value": "(1 item)"
+    }, {
+      "id": "98fb14ca-05e9-4dc5-8873-ebd0a8aa40d3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wish-list-product__description > span:nth-child(2)",
+      "targets": [
+        ["css=.wish-list-product__description > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel')]", "xpath:innerText"]
+      ],
+      "value": "24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel"
+    }, {
+      "id": "7fe85521-e655-4872-b799-6a1ba276f85b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7317", "id"],
+        ["css=#id7317", "css:finder"],
+        ["xpath=//input[@id='id7317']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4639a58-ac85-45a8-89a5-3b65e2652923",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7317", "id"],
+        ["css=#id7317", "css:finder"],
+        ["xpath=//input[@id='id7317']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bed"
+    }, {
+      "id": "a7bdf586-ca97-4d60-9c91-d2409d41a1c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=queen bed",
+      "targets": [
+        ["linkText=queen bed", "linkText"],
+        ["css=.acl-search-autosuggest__list-item--is-active > .acl-search-autosuggest__list-item-link", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-search-typeahead']/div[3]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "099ffe47-ac60-4158-a123-fffd4f1c4bed",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--brand",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--brand", "css:finder"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Monarch Specialties ')]", "xpath:innerText"]
+      ],
+      "value": "Monarch Specialties"
+    }, {
+      "id": "0ec7afa5-6052-4a32-b9d5-3c7819cbf5f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-color--brand > svg",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-color--brand > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d218cb34-6007-4b72-8ec7-b34cb832a169",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted > .acl-pr--small",
+      "targets": [
+        ["css=.ng-star-inserted > .acl-pr--small", "css:finder"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Saved to List"
+    }, {
+      "id": "0a452d1f-2b94-4119-b421-7a997a2d3d88",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=View List",
+      "targets": [
+        ["linkText=View List", "linkText"],
+        ["css=.ng-star-inserted .acl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'View List')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/myaccount/my-list')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View List')]", "xpath:innerText"]
+      ],
+      "value": "View List"
+    }, {
+      "id": "b1cd843f-6e0b-47ac-bd7c-fd94869f71f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View List",
+      "targets": [
+        ["linkText=View List", "linkText"],
+        ["css=.ng-star-inserted .acl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'View List')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/myaccount/my-list')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2c77d8-6844-4a45-ac7e-dde8fe2ccb85",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.md\\3A acl-text-size--xx-large",
+      "targets": [
+        ["css=.md\\3A acl-text-size--xx-large", "css:finder"],
+        ["xpath=//wish-list-page-container/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My List ')]", "xpath:innerText"]
+      ],
+      "value": "My List"
+    }, {
+      "id": "ccba441c-8955-4b35-b286-70e69842453b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.md\\3A acl-text-size--x-large",
+      "targets": [
+        ["css=.md\\3A acl-text-size--x-large", "css:finder"],
+        ["xpath=//wish-list-page-container/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(2 items)')]", "xpath:innerText"]
+      ],
+      "value": "(2 items)"
+    }, {
+      "id": "10e43b3b-e2dd-4b71-b591-ea466d02e57c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=wish-list-product-component:nth-child(1) .wish-list-product__description > .acl-weight--bold",
+      "targets": [
+        ["css=wish-list-product-component:nth-child(1) .wish-list-product__description > .acl-weight--bold", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Monarch Specialties ')]", "xpath:innerText"]
+      ],
+      "value": "Monarch Specialties"
+    }, {
+      "id": "e86d2202-d4b7-4a14-a280-fccb3e93162b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=wish-list-product-component:nth-child(2) .wish-list-product__description",
+      "targets": [
+        ["css=wish-list-product-component:nth-child(2) .wish-list-product__description", "css:finder"],
+        ["xpath=(//a[contains(@href, '/product/samsung-24-inch-top-control-tall-tub-dishwasher-with-hybrid-tub-53-dba-in-stainless-steel/1001826678')])[2]", "xpath:href"],
+        ["xpath=//wish-list-product-component[2]/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": "Samsung 24-inch Top Control Tall Tub Dishwasher with Hybrid Tub, 53 dBA in Stainless Steel"
+    }, {
+      "id": "9edfbae5-1884-49f4-9f0b-27e29c7fe21c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=wish-list-product-component:nth-child(1) .acl-display--flex:nth-child(2) > .acl-display--flex:nth-child(2) svg:nth-child(1)",
+      "targets": [
+        ["css=wish-list-product-component:nth-child(1) .acl-display--flex:nth-child(2) > .acl-display--flex:nth-child(2) svg:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "386215d6-89ec-4bee-8ab5-43d35c7b127a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/en/home.html"],
+  "plugins": []
+}
