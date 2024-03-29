@@ -29,7 +29,7 @@
             * Original test suite test case that likely killed this mutant: testCentralValueWithPositiveRange() and testCentralValueWithNegativeRange()
         * Generated Mutant 02: Substituted 2.0 with 1.0
             * Mutation Status: Killed
-            * Analysis of the mutant: The expectation is the calculation of the average or the midpoint, and division by 2.0 is crucial for the correctness and accuracy. But this mutant substitutes 2.0 with 1.0, thereby resulting in a caluculation that doesn't halve the sum of the bounds, producing an incorrect result by not averaging the bounds.
+            * Analysis of the mutant: The expectation is the calculation of the average or the midpoint, and division by 2.0 is crucial for correctness and accuracy. But this mutant substitutes 2.0 with 1.0, thereby resulting in a calculation that doesn't halve the sum of the bounds, producing an incorrect result by not averaging the bounds.
             * Original test suite test case that likely killed this mutant: Even though all test cases are capable of killing this mutant since they all depend on the division by 2.0 for average calculation, there are two test cases: testCentralValueWithPositiveRange() and testCentralValueWithNegativeRange() that directly impacts the accuracy without the added complexities of extreme ranges or special conditions. 
     * Method 03: expand(Range range, double lowerMargin, double upperMargin):
         * Generated Mutant 01: Negated double local variable number 5 
@@ -62,16 +62,22 @@
 # Report all the statistics and the mutation score for each test class
 - Range class:
     * Initial Run of Mutation test on Range class & its corresponding test suite:
-    ![Overall_Initial_Range_Score](overall.png)
+      ![Overall_Initial_Range_Score](overall.png)
         * Statistics of Killed Mutants:
+          
         ![Overall_Initial_Killed](overall_killed.png)
+      
         * Statistics of Survived Mutants:
+          
         ![Overall_Initial_Survived](overall_survived.png)
     * Final Run of Mutation test on Range class & its corresponding test suite with additional test cases:
     ![Overall_Final_Range_Score](overall_final.png)
         * Statistics of Killed Mutants:
+          
         ![Overall_Final_Killed](overall_final_killed.png)
+
         * Statistics of Survived Mutants:
+          
         ![Overall_Final_Survived](overall_final_survived.png)
 
 # Analysis drawn on the effectiveness of each of the test classes
