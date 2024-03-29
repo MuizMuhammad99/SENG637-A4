@@ -102,11 +102,6 @@ public strictfp class Range implements Serializable {
      * @return The lower bound.
      */
     public double getLowerBound() {
-        if (lower > upper) {
-            String msg = "Range(double, double): require lower (" + lower
-                + ") <= upper (" + upper + ").";
-            throw new IllegalArgumentException(msg);
-        }
         return this.lower;
     }
 
@@ -116,11 +111,6 @@ public strictfp class Range implements Serializable {
      * @return The upper bound.
      */
     public double getUpperBound() {
-        if (lower > upper) {
-            String msg = "Range(double, double): require lower (" + lower
-                + ") <= upper (" + upper + ").";
-            throw new IllegalArgumentException(msg);
-        }
         return this.upper;
     }
 
@@ -130,11 +120,6 @@ public strictfp class Range implements Serializable {
      * @return The length.
      */
     public double getLength() {
-        if (lower > upper) {
-            String msg = "Range(double, double): require lower (" + lower
-                + ") <= upper (" + upper + ").";
-            throw new IllegalArgumentException(msg);
-        }
         return this.upper - this.lower;
     }
 
@@ -156,12 +141,6 @@ public strictfp class Range implements Serializable {
      * @return <code>true</code> if the range contains the specified value.
      */
     public boolean contains(double value) {
-        if (value < this.lower) {
-            return false;
-        }
-        if (value  > this.upper) {
-            return false;
-        }
         return (value >= this.lower && value <= this.upper);
     }
 
@@ -175,7 +154,6 @@ public strictfp class Range implements Serializable {
      * @return A boolean.
      */
     public boolean intersects(double b0, double b1) {
-        
         if (b0 <= this.lower) {
             return (b1 > this.lower);
         }
@@ -194,8 +172,8 @@ public strictfp class Range implements Serializable {
      *
      * @since 1.0.9
      */
-    public boolean intersects(Range range) {
-        return intersects(range.getLowerBound(), range.getUpperBound());
+    public boolean intersects(Range other) {
+        return !(this.upper < other.lower || this.lower > other.upper);
     }
 
     /**
@@ -350,14 +328,16 @@ public strictfp class Range implements Serializable {
                                double lowerMargin, double upperMargin) {
         ParamChecks.nullNotPermitted(range, "range");
         double length = range.getLength();
-        double lower = range.getLowerBound() - length * lowerMargin;
-        double upper = range.getUpperBound() + length * upperMargin;
+        double adjustedRangeLength = length == 0 ? range.getLowerBound() : length; // Adjust for single point
+        double lower = range.getLowerBound() - adjustedRangeLength * lowerMargin;
+        double upper = range.getUpperBound() + adjustedRangeLength * upperMargin;
         if (lower > upper) {
             lower = lower / 2.0 + upper / 2.0;
             upper = lower;
         }
         return new Range(lower, upper);
     }
+    
 
     /**
      * Shifts the range by the specified amount.
@@ -405,7 +385,7 @@ public strictfp class Range implements Serializable {
      *
      * @return The adjusted value.
      */
-    private static double shiftWithNoZeroCrossing(double value, double delta) {
+    public static double shiftWithNoZeroCrossing(double value, double delta) {
         if (value > 0.0) {
             return Math.max(value + delta, 0.0);
         }
@@ -449,13 +429,8 @@ public strictfp class Range implements Serializable {
             return false;
         }
         Range range = (Range) obj;
-        if (!(this.lower == range.lower)) {
-            return false;
-        }
-        if (!(this.upper == range.upper)) {
-            return false;
-        }
-        return true;
+        return (Double.doubleToLongBits(this.lower) == Double.doubleToLongBits(range.lower))
+            && (Double.doubleToLongBits(this.upper) == Double.doubleToLongBits(range.upper));
     }
 
     /**
@@ -481,7 +456,7 @@ public strictfp class Range implements Serializable {
         long temp;
         temp = Double.doubleToLongBits(this.lower);
         result = (int) (temp ^ (temp >>> 32));
-        temp = Double.doubleToLongBits(this.upper);
+        temp = Double.doubleToLongBits(upper);
         result = 29 * result + (int) (temp ^ (temp >>> 32));
         return result;
     }
